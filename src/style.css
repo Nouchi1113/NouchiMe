@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+#header {
+  background-color: darkgray;
+  width: 100%;
+  text-align: center;
+}
+
+#title {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header-menu-item {
+  width: 33.3%;
+}
