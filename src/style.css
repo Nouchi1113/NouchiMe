@@ -17,9 +17,19 @@ body {
   width: 33.3%;
 }
 
+.Nouchimage {
+  margin-left: 100px;
+  float: left;
+}
+.Nouchimage h3 {
+  margin-left: 20px;
+  float: right;
+}
 .profile {
+  clear: left;
   margin-left: 100px;
 }
+
 #maintheme {
   margin-left: 100px;
   border-top: 1px solid #eee;
