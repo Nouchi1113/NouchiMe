@@ -22,11 +22,20 @@ body {
   float: left;
 }
 .Nouchimage h3 {
-  margin-left: 20px;
+  margin-left: 5px;
   float: right;
 }
+
+.follow-me {
+  list-style: none;
+  margin-right: 20px;
+}
+
 .profile {
   clear: left;
+
+  margin: 10px;
+  padding: 10px;
   margin-left: 100px;
 }
 
