@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>NouchiMe</title>
+    <title>Profile - NouchiMe</title>
     <link rel="stylesheet" href="src/style.css" />
     <link
       rel="stylesheet"
@@ -16,6 +16,10 @@
       href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css"
     />
     <!-- UIkit JS -->
+
+    <!-- アイコンリンク -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
   
@@ -24,9 +28,9 @@
   <body>
     <header id="header">
        <!-- タイトル -->
-      <a id="title" href="index.html"> 
-       <h1>Nouchi</h1>
-      </a>
+       <a id="title" href="index.html"> 
+        <h1>NouchiMe</h1>
+       </a>
       <!-- メニュー一覧 -->
       <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-center">
@@ -35,7 +39,8 @@
            
             <li>
               <a href="portfolio.html">Portfolio</a>
-               <!-- ここはキャッチコピーをかく 
+               <!-- メニューダウンエリア -->
+               <!--
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
                   <li class="uk-active"><a href="#">Item</a></li>
@@ -44,47 +49,49 @@
                 </ul>
               </div>
             -->
+           
             </li>
             <li><a href="https://note.com/nouchi1113">Blog</a></li>
           </ul>
         </div>
     </header>
-
+    
      <!--ここから本文-->
-     <!-- 中身（画像とか） -->
-    <div uk-grid>
-      <div class="uk-width-4-5">
-        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-          <div class="uk-card-media-left uk-cover-container">
-              <img src="data/EP演習.png" alt="" uk-cover>
-              <canvas width="600" height="400"></canvas>
-          </div>
-          <div>
-              <div class="uk-card-body">
-                  <h3 class="uk-card-title">Media Left</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-          </div>
-      </div>
-      
-      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-          <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-              <img src="data/P演習.png" alt="" uk-cover>
-              <canvas width="600" height="400"></canvas>
-          </div>
-          <div>
-              <div class="uk-card-body">
-                  <h3 class="uk-card-title">Media Right</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
-          </div>
-      </div>
-      </div>
-      <div class="uk-width-1-5"></div>
-  </div>
+    <!-- プロフィール欄 -->
+    <h2 id="maintheme">Profile</h2>
 
-  <p>概要</p>
+    <div class="Nouchimage">  
+    <img  src="https://lh3.googleusercontent.com/-4Pd8FW6o1sE/Wss2TkCyehI/AAAAAAAAEps/mK0M8_4XwXMuuyEIV-SvPIvEmIFDAvzygCE0YBhgL/IMG_1966.JPG" alt="中野内涼也" title="中野内涼也" width="300" height="200">
+    <h3>中野内 涼也
+      <ul class="follow-me">
+        <li><a href="https://twitter.com/nouchinow"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/Nouchi1113"><i class="fa fa-github"></i></a></li>
+    </ul>
+    </h3>
+   
+    </div>
+  
+
+    <div class="profile">
+    <h3>所属</h3>
+    <p>明治大学 先端数理科学研究科 先端メディアサイエンス専攻 宮下研究室 M1</p>
+    <h3>研究分野</h3>
+    <p>Human-Computer Interaction, Entertainment Computing</p>
+    <h3>趣味</h3>
+    <p>ゲーム作り, 音楽制作, ハンドボール
+    </p>
+    <!--<h3>資格</h3>
+    剣道・スポーツチャンバラ初級，普通自動車免許
+    -->
+    </div>
+
+    
+    <p><i class="fas fa-bomb fa-5x"></i></p>
+
+  
+
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit-icons.min.js"></script>
-  </body>
+
+    </body>
 </html>

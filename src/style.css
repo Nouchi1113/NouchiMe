@@ -78,12 +78,18 @@ ul li:last-child {
 
 iframe {
   float: left;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 50px;
   margin-right: 50px;
 }
-
-.comment {
-  margin-left: 100px;
+.bx-wrapper {
+  float: left;
+  margin-left: 50px;
   margin-top: 50px;
+  margin-right: 50px;
+}
+.comment {
+  margin-left: 52%;
+  margin-top: 50px;
+  margin-right: 50px;
 }
